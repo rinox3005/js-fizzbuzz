@@ -10,19 +10,43 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 80vh;
+    width: 70vw;
+    padding-bottom: 3rem;
 }
 
 .container h1 {
     text-align: center;
     color: white;
     font-size: 5rem;
-    padding-top: 2rem;
+    padding: 3rem 0;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
-.square {}
+.square {
+    display: grid;
+    place-items: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: #1389B2;
+}
+
+.yellow {
+    background-color: #1389B2;
+}
+
+.aqua {
+    background-color: #1389B2;
+}
+
+.red {
+    background-color: #1389B2;
+}
