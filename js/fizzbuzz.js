@@ -16,7 +16,7 @@ for (let i = 1; i <= 100; i++) {
         console.log('FizzBuzz');
         div.append('FizzBuzz');
         grid.append(div);
-
+        div.classList.add('square');
 
         // -- ELSE SE i % 5 é uguale a zero vuol dire che é multiplo di 5 e quindi stamperó in console "buzz" al posto del valore di i
 
@@ -25,7 +25,7 @@ for (let i = 1; i <= 100; i++) {
         console.log('Buzz');
         div.append('Buzz');
         grid.append(div);
-
+        div.classList.add('square');
 
         // -- ELSE SE i % 3 é uguale a zero vuol dire che é multiplo di 3 e quindi stamperó in console "fizz" al posto del valore di i
     } else if ((i % 3) === 0) {
@@ -33,7 +33,7 @@ for (let i = 1; i <= 100; i++) {
         console.log('Fizz');
         div.append('Fizz');
         grid.append(div);
-
+        div.classList.add('square');
 
         // -- ELSE stampo il valore corrente di i
     } else {
@@ -41,7 +41,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
         div.append(i);
         grid.append(div);
-
+        div.classList.add('square');
     }
 }
 
