@@ -5,11 +5,14 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i mult
 
 -- all'interno del ciclo inserisco le condizioni per confrontare gli elementi
 
--- SE i % 3 é uguale a zero vuol dire che é multiplo di 3 e quindi stamperó in console "fizz" al posto del valore di i
+-- SE i % 3 e anche i % 5 sono uguali a zero stamperó in console fizzbuzz al posto del valore di i
 
 -- ELSE SE i % 5 é uguale a zero vuol dire che é multiplo di 5 e quindi stamperó in console "buzz" al posto del valore di i
 
--- ELSE SE i % 3 e anche i % 5 sono uguali a zero stamperó in console fizzbuzz al posto del valore di i
+-- ELSE SE i % 3 é uguale a zero vuol dire che é multiplo di 3 e quindi stamperó in console "fizz" al posto del valore di i
+
+-- ELSE stampo il valore corrente di i
+
 
 BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
